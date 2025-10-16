@@ -13,16 +13,16 @@
     list-style: none;   /* remove os dots */
     color:black;
 }
-nav{
+.navmenu{
     display: flex; /* Permite organizar os elementos HTML*/
     justify-content: space-between;
-    background-color:#FFE600;
+    background-color:#FFE600; /* Fundo carvão*/
     padding: 10px 20px;
     
 }
 .logo{
     font-size: 1.9rem;
-    color: #0046BE;
+    color:black; /*Cor do LOGO*/
     font-weight: bold;
     
 }
@@ -31,7 +31,7 @@ li{
 }
 .a_menu{ 
     text-decoration: none; /* remove o sublinhado */
-    color: black;
+    color:black;
     font-size: 1.4rem;
 }
 body{
@@ -44,6 +44,12 @@ body{
   padding: 6rem 2rem;
   color: #fff;
 }
+.btn-primary {
+    background-color: yellow !important; /* Vermelho Escuro da Marca */
+    border-color: #990000 !important; 
+    color: #1f1f1f;
+}
+
 
 /* --- ESTILOS DO RODAPÉ (FOOTER) --- */
 
